@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Sua Thong Tin"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:textColor="#CC1010"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Ten Cau Thu"
+        android:id="@+id/edttenctne"
+        android:textSize="20dp"
+        android:textColor="#F4511E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Ngay Sinh"
+        android:id="@+id/edtngaysinhne"
+        android:textSize="20dp"
+        android:textColor="#F4511E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Luong"
+        android:id="@+id/edtluongne"
+        android:textSize="20dp"
+        android:textColor="#F4511E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btnsuact"
+        android:text="Sua Cau Thu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
